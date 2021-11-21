@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparkle Heart</title>
+    <link rel="icon" href="assets/img/logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;
+        0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+          integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+<header class="header">
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="assets/img/logo.png" alt="Logo"></a>
+        </div>
+
+        <ul class="menu_links">
+            <li><a href="#">Ideja</a></li>
+            <li><a href="#">Piesaki Sapni</a></li>
+            <li><a href="#">Uzņēmējiem</a></li>
+            <li><a href="#">Sapņu banka</a></li>
+            <li><a href="#">Sapņus atbalsta</a></li>
+            <li><a href="#">99 Iedvesmas stāsti</a></li>
+            <li>
+                <div class="lang_menu">
+                    <div class="selected_lang">
+                        LV
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="#" class="lv">LV</a>
+                        </li>
+                        <li>
+                            <a href="" class="en">EN</a>
+                        </li>
+                        <li>
+                            <a href="" class="ru">RU</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="main_content">
+        <!--------------------BANNER---------------->
+        <div class="banner">
+            <div class="banner_top">
+                <img src="assets/img/un.png" alt="top">
+            </div>
+            <video class="video" width="100%" height="100%" src="assets/img/b.mp4"
+                   poster="assets/img/banner.png">
+            </video>
+            <button class="play_button">►</button>
+        </div>
+
+        <!-----------------------TEXT------------------>
+        <div class="description">
+            <p>
+                SparkleHeart ir biedrība, kas radīta, lai palīdzētu cilvēkiem piepildīt pat pārdrošākos sapņus. Šeit
+                satiekas sapņotāji un viņu atbalstītāji - uzņēmumi, kas sniedz palīdzīgu roku, lai kopā pasauli padarītu
+                par
+                labāku vietu mums visiem.Mēs esam gatavi
+                palīdzēt Tev piepildīt sapni. Kā pamats iedvesmai - tiek radīti arī 99 stāsti par Latvijas sievietēm.
+
+            </p>
+        </div>
+        <!--------------------------IMAGES-------------------->
+        <div class="images">
+            <div class="images_top">
+                <img src="assets/img/top.png" alt="Top">
+            </div>
+            <div class="image_items">
+
+                <div class="item">
+                    <img src="assets/img/img1.jpg" alt="Woman"/>
+                </div>
+                <div class="item">
+                    <img src="assets/img/img2.jpg" alt="Woman"/>
+                </div>
+                <div class="item" style="display: grid; grid-template-rows: 1fr 1fr;">
+                    <img src="assets/img/img3.jpg" alt="Woman"/>
+                    <img src="assets/img/img4.jpg" alt="Woman"/>
+                </div>
+                <div class="item">
+                    <img src="assets/img/img5.jpg" alt="Woman"/>
+                </div>
+            </div>
+            <div class="images_bottom">
+                <img src="assets/img/top.png" alt="Bottom">
+            </div>
+        </div>
+        <!-----------------------APPLY------------------->
+        <div class="apply">
+            <div class="apply_item_left">
+                <h2 class="apply_title_left">
+                    VĒLIES PIEPILDĪT SAVU SAPNI?
+                </h2>
+                <button class="apply_btn_left">
+                    <a href="#"> Sapņotājiem</a>
+                </button>
+            </div>
+            <div class="apply_item_right">
+                <h2 class="apply_title_right">
+                    VĒLIES PALĪDZĒT KĀDĀM PIEPILDĪT SAPNI?
+                </h2>
+                <button class="apply_btn_right">
+                    <a href="#"> Uzņēmējiem</a>
+                </button>
+            </div>
+        </div>
+
+        <!------------------------------CONTACT US------------------->
+        <div class="contact_us">
+            <div class="contact_title">
+                <h2>SAZINĀTIES AR MUMS</h2>
+            </div>
+            <form action="#" class="contact_us_form">
+                <div class="form_group" style="display: flex;">
+                    <input type="text" class="name" name="name" placeholder="Vārds, Uzvārds*">
+                    <input type="email" class="email" name="email" placeholder="E-pasts*">
+                </div>
+                <div class="form_group">
+                    <input type="number" class="phonenumber" name="number" placeholder="Telefons*">
+                </div>
+                <div class="form_group">
+                <textarea name="contact_area" class="contact_area" id="contact_area" cols="50" rows="0"
+                          placeholder="Jautājums, vai komentārs*"></textarea>
+                    <p style="font-size: 14px; color: #b1b0b0;">* obligāti aizpildāmie lauki</p>
+                </div>
+                <div class="form_group" style="display: flex;">
+                    <input type="checkbox"/>
+                    <p style="font-size: 14px; color: #b1b0b0;
+                     margin-left: 10px;">Piekrītu, ka mani dati tiks izmantoti likumdošanā noteiktā kārtībā un tiks
+                        saglabāti līdz brīdim, kamēr tas būs nepieciešams.</p>
+                </div>
+
+                <div class="form_group">
+                    <button class="contact_btn">
+                        <a href="#">Sūtīt</a>
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!------------------------CUSTOMERS---------------->
+        <div class="customers">
+            <div class="custom_top">
+                <img src="assets/img/un.png" alt="Customers">
+            </div>
+
+            <div class="custom_title">
+                <h2>ATBALSTĪTĀJI</h2>
+            </div>
+            <div class="custom_items">
+                <div class="custom_item">
+                    <img src="assets/img/customers/tikum.png" alt="TIKUM">
+                </div>
+                <div class="custom_item">
+                    <img src="assets/img/customers/sem.png" alt="SEM">
+                </div>
+                <div class="custom_item">
+                    <img src="assets/img/customers/citybee.png" alt="CITYBEE">
+                </div>
+                <div class="custom_item">
+                    <img src="assets/img/customers/lo.png" alt="LO">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer_img">
+                <img src="assets/img/ripp.png" alt="Customers">
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_logo">
+                    <a href="#">
+                        <img src="assets/img/goldlogo.png" alt="">
+                    </a>
+                </div>
+                <div class="footer_links">
+                    <ul>
+                        <li><a href="#">Ideja</a></li>
+                        <li><a href="#">Piesaki Sapni</a></li>
+                        <li><a href="#">Uzņēmējiem</a></li>
+                        <li><a href="#">Sapņu banka</a></li>
+                        <li><a href="#">Sapņus atbalsta</a></li>
+                        <li><a href="#">Iedvesmas stāsti</a></li>
+                    </ul>
+                </div>
+                <div class="footer_bank">
+                    <ul style="font-size: 14px;">
+                        <li style="font-size: 18px;"><a href="#">Biedrība SparkleHeart</a></li>
+                        <li><a href="#">Reģistrācijas nr. 40008293119</a></li>
+                        <li><a href="#">Banka: SWEDBANK A/S</a></li>
+                        <li><a href="%">LV52HABA0551047652465</a></li>
+                    </ul>
+                </div>
+                <div class="footer_address">
+                    <ul>
+                        <li><a href="#">Juris Gogulis</a></li>
+                        <li><a href="#">juris.gogulis@sparkleheart.org</a></li>
+                        <li><a href="#">+37126890034</a></li>
+                        <li><a href="#">Biķernieku iela 24a - 5, LV-1006</a></li>
+                        <li style="font-size: 22px;">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer_privacy">
+                <div class="foot_priv_left">
+                    © SparkleHeart 2020. <br> Visas tiesības aizsargātas.
+                </div>
+                <div class="foot_priv_right">
+                    Privātuma politika
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</main>
+
+
+<script src="assets/js/theme.js"></script>
+</body>
+
+</html>
